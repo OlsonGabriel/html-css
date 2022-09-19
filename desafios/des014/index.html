@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>des014</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 500px;
+
+        }
+
+        thead{
+            background-color: rgb(109, 109, 109);
+            color: white;
+
+        }
+
+        .materia{
+            font-weight: normal;
+        }
+
+        .media{
+            background-color: rgb(109, 109, 109);
+            color: white;
+        }
+
+        .media > th{
+            text-align: left;
+
+        }
+
+        .num{
+            text-align: center;
+
+        }
+
+        th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col">
+                    Área
+                </th>
+                <th rowspan="2" scope="col">
+                    Disciplina
+                </th>
+                <th colspan="2" scope="col">
+                    Notas
+                </th>
+                <th rowspan="2" scope="col">
+                    Média
+                </th>
+            </tr>
+            <tr>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+            </tr>
+            <tr>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">
+                    Exatas
+                </th>
+                <th class="materia" scope="row">
+                    Matemática
+                </th>
+                <td class="num">
+                    0.0
+                </td>
+                <td class="num">
+                    0.0
+                </td>
+                <td class="num">
+                    0.0
+                </td>
+            </tr>
+            <tr>
+                <th class="materia" scope="row">
+                    Física
+                </th>
+                <td class="num">
+                    0.0
+                </td>
+                <td class="num">
+                    0.0
+                </td> 
+                <td class="num">
+                    0.0
+                </td> 
+            </tr>
+            <tr>
+                <th class="materia">
+                    Quimica
+                </th>
+                <td class="num">
+                    0.0
+                </td>
+                <td class="num"> 
+                    0.0
+                </td>  
+                <td class="num">
+                    0.0
+                </td>
+            </tr>
+            <tr>
+                <th class="materia">
+                    Biologia
+                </th>
+                <td class="num">
+                    0.0
+                </td>
+                <td class="num">
+                    0.0
+                </td> 
+                <td class="num">
+                    0.0
+                </td> 
+            </tr>
+            <tr class="media">
+                <th colspan="4">Média Exatas</th>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2">
+                    Humanas
+                </th>
+                <th class="materia">
+                    História
+                </th>
+                <td class="num">
+                    0.0
+                </td>
+                <td class="num">
+                    0.0
+                </td>
+                <td class="num">
+                    0.0
+                </td>
+            </tr>
+            <tr>
+                <th class="materia">
+                    Geográfia
+                </th>
+                <td class="num">
+                    0.0
+                </td>
+                <td class="num"> 
+                    0.0
+                </td>
+                <td  class="num">
+                    0.0
+                </td>
+            </tr>
+            <tr class="media">
+                <th colspan="4">
+                    Média Humanas
+                </th>
+                <td class="num">
+                    0.0
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

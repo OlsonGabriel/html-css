@@ -44,22 +44,8 @@ img{
 
 }
 
-#phone{
-    display: block;
-}
-
-#tablet{
-    display: none;
-}
-
-#print{
-    display: none;
-}
-
-#tv{
-    display: none;
-}
-
-#pc{
-    display: none;
-}
+#phone{display: block;}
+#tablet{display: none;}
+#print{display: none;}
+#tv{display: none;}
+#pc{display: none;}
